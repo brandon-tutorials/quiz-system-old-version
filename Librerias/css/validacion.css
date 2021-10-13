@@ -1,0 +1,81 @@
+/*Esta seccion contiene los estilos de la pagina que determina que tipo de usuario eliges (Profesor o Alumno)*/
+
+@import url('https://fonts.googleapis.com/css?family=Acme|Poppins&display=swap');
+#barraNav {
+    font-family: 'Acme', sans-serif;
+}
+body {
+    background: #EAEAEA;
+}
+/*Estilos de los botones de la pagina principal del sistema web*/
+
+#caja {
+    color: #ffffff;
+    text-align: center;
+    background: #FC4A68;
+    margin: 0 0 25px;
+    padding: 20px;
+    border-radius: 35px 0px 35px 0px;
+    -moz-border-radius: 35px 0px 35px 0px;
+    -webkit-border-radius: 35px 0px 35px 0px;
+    border: 2px solid #F2F2F2;
+}
+#caja2 {
+    color: #ffffff;
+    text-align: center;
+    background: #33BF59;
+    margin: 0 0 25px;
+    padding: 20px;
+    border-radius: 35px 0px 35px 0px;
+    -moz-border-radius: 35px 0px 35px 0px;
+    -webkit-border-radius: 35px 0px 35px 0px;
+    border: 2px solid #F2F2F2;
+}
+#contenedor {
+    padding: 5%;
+}
+#contenedor h2, h1 {
+    font-family: 'Poppins', sans-serif;
+}
+#contenedor h1 {
+    font-size: 300%;
+}
+#contenedor h2 {
+    color: rgba(255, 255, 255, 0.6);
+}
+#titulo {
+    text-align: center;
+}
+/*Formato adecuado*/
+
+@media(max-width: 991px) {
+    #botonIn:hover {
+        background: #858585;
+    }
+    #pregunta {
+        color: #fff;
+        text-align: center;
+    }
+    #botonIn {
+        color: #fff;
+        text-align: center;
+    }
+}
+@media (min-width: 992px) {
+    #botonIn:hover {
+        background: #EBEBEB;
+    }
+    #pregunta {
+        color: #fff;
+    }
+    #botonIn {
+        color: black;
+        background: #fff;
+    }
+}
+#caja:hover {
+    background: #DE2241;
+}
+#caja2:hover {
+    background: #0CA937;
+}

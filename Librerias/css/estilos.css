@@ -1,0 +1,15 @@
+/*Estilos para la vista Principal (Alumno y Profesor)*/
+
+/*Importaciones de archivos*/
+
+@import url(https://fonts.googleapis.com/css?family=Acme|Poppins&display=swap);
+@import url(paginaPrincipal.css);
+@import url(navegacion.css);
+/*Fondos de letra*/
+
+* {
+    font-family: 'Acme', sans-serif;
+}
+button, input {
+    font-family: 'Poppins', sans-serif;
+}

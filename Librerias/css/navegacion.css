@@ -1,0 +1,9 @@
+/*Estilos pertenecientes a la barra navegacion que se encuentra en los archivos Header*/
+
+#barraNav a {
+    color: #fff;
+    font-size: 20px;
+}
+#barraNav li:hover {
+    background: #4E94F9;
+}

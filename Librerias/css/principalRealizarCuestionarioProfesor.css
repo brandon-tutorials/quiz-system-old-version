@@ -1,0 +1,131 @@
+#contenedorTextPIN {
+    border-right: 1px solid #ddd;
+    margin-bottom: -20px;
+    margin-top: 20px;
+}
+#contenedorTextPIN h1 {
+    font-size: 85px;
+    text-align: center;
+}
+#contenedorTextPIN h2 {
+    font-size: 100px;
+    color: #C48A0C;
+    text-align: center;
+}
+#contenedorPINboton button {
+    height: 80px;
+    width: 150px;
+    margin-top: 60px;
+    font-size: 25px;
+}
+#volver {
+    height: 80px;
+    width: 150px;
+    margin: 20px 30px;
+    font-size: 25px;
+}
+/*Estilos de fotografia*/
+
+#cargaImagen {
+    left: 50%;
+    max-height: 100%;
+    max-width: 100%;
+    position: absolute;
+    top: 50%;
+    transition: all 300ms ease-in;
+    transform: translate(-50%, -50%);
+}
+#tituloP {
+    font-size: 40px;
+    text-align: center;
+}
+#respuestaUno {
+    font-size: 20px;
+    text-align: center;
+}
+#respuestaDos {
+    font-size: 20px;
+    text-align: center;
+}
+#respuestaTres {
+    font-size: 20px;
+    text-align: center;
+}
+#respuestaCuatro {
+    font-size: 20px;
+    text-align: center;
+}
+#countdown {
+    font-size: 45px;
+    margin-top: 30%;
+}
+.dot {
+    height: 70px;
+    width: 70px;
+    background-color: #f0522a;
+    border-radius: 50%;
+    text-align: center;
+    color: #fff;
+}
+#btnMostrarR {
+    margin: 50% 50%;
+}
+.buttonSeccionTres {
+    display: inline-block;
+    padding: 20px 40px;
+    color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    vertical-align: middle;
+    text-decoration: none;
+    font-size: 4vw;
+    transition: all .5s;
+    background-color: #FC4A68;
+}
+#btnContinuar {
+    margin-top: 50%;
+    height: 50px;
+    font-size: 20px;
+}
+#tituloPT {
+    font-size: 40px;
+    text-align: center;
+}
+#respuestaUnoT {
+    font-size: 20px;
+    text-align: center;
+}
+#respuestaDosT {
+    font-size: 20px;
+    text-align: center;
+}
+#respuestaTresT {
+    font-size: 20px;
+    text-align: center;
+}
+#respuestaCuatroT {
+    font-size: 20px;
+    text-align: center;
+}
+#cargaImagenT {
+    left: 50%;
+    max-height: 100%;
+    max-width: 100%;
+    position: absolute;
+    top: 50%;
+    transition: all 300ms ease-in;
+    transform: translate(-50%, -50%);
+}
+#btnSiguiente {
+    height: 80px;
+    font-size: 20px;
+}
+#contenidoTab {
+    font-size: 20px;
+}
+#btnSalirC {
+    height: 60px;
+    font-size: 25px;
+}

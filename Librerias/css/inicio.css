@@ -1,0 +1,132 @@
+/*Estilos pertenecientes al la pagina principal del sistema web*/
+
+@import url('https://fonts.googleapis.com/css?family=Acme|Poppins&display=swap');
+#barraNav, #contenedor {
+    font-family: 'Acme', sans-serif;
+}
+#caja {
+    color: #ffffff;
+    text-align: center;
+    margin: 0 0 25px;
+    padding: 20px;
+    border-radius: 35px 35px 35px 35px;
+    -moz-border-radius: 35px 35px 35px 35px;
+    -webkit-border-radius: 35px 35px 35px 35px;
+    border: 2px solid #fff;
+}
+#caja2 {
+    color: #ffffff;
+    text-align: center;
+    background: #FC4A68;
+    margin: 0 0 25px;
+    padding: 20px;
+    border-radius: 35px 35px 35px 35px;
+    -moz-border-radius: 35px 35px 35px 35px;
+    -webkit-border-radius: 35px 35px 35px 35px;
+    border: 2px solid #fff;
+}
+body {
+    background-attachment: fixed;
+    background-size: 100% 100%;
+}
+#contenedor {
+    padding: 2%;
+    margin-top: 7%;
+}
+#contenedor h2, h1 {
+    font-family: 'Poppins', sans-serif;
+}
+#contenedor h1 {
+    font-size: 300%;
+}
+#contenedor h2 {
+    color: rgba(255, 255, 255, 0.6);
+}
+#titulo {
+    text-align: center;
+}
+@media(max-width: 768px) {
+    #botonIn:hover {
+        background: #858585;
+    }
+    #pregunta {
+        color: #fff;
+        text-align: center;
+    }
+    #botonIn {
+        color: #fff;
+        text-align: center;
+    }
+    #titulo {
+        background: #EAEAEA;
+    }
+}
+@media (min-width: 767px) {
+    #botonIn:hover {
+        background: #EBEBEB;
+    }
+    #pregunta {
+        color: #fff;
+    }
+    #botonIn {
+        color: black;
+        background: #fff;
+    }
+    #contenedor {
+        background: #EAEAEA;
+        box-shadow: 0 0 0 4px rgba(0, 0, 0, 0.1);
+        border-radius: 1rem;
+        width: 50%;
+    }
+    footer {
+        position: fixed;
+    }
+}
+#caja:hover {
+    background: #A7F5F5;
+}
+#caja2:hover {
+    background: #DE2241;
+}
+#caja3:hover {
+    background: #0CA937;
+}
+#caja img {
+    border-radius: 10%;
+    /*
+	box-shadow: 0 0 0 8px rgba(0,0,0,.06);	
+	
+	
+*/
+    margin: 10px auto;
+    transition: .2s;
+    height: 100px;
+    display: block;
+}
+#caja3 img {
+    border-radius: 10%;
+    /*
+	box-shadow: 0 0 0 8px rgba(0,0,0,.06);	
+
+	*/
+    margin: 10px auto;
+    transition: .2s;
+    height: 100px;
+    display: block;
+}
+#caja2 img {
+    border-radius: 10%;
+    /*
+	box-shadow: 0 0 0 8px rgba(0,0,0,.06);	
+
+*/
+    margin: 10px auto;
+    transition: .2s;
+    height: 100px;
+    display: block;
+}
+footer {
+    bottom: 0;
+    width: 100%;
+    color: white;
+}
